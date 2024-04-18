@@ -1,0 +1,54 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#case {
+    padding: 30px 30px;
+    background-image: url("res/Case.png");
+    background-size: 134% 127%;
+    background-position: center;
+    border-radius: 87px;
+    width: 400px;
+    filter: drop-shadow(50px 50px 10px rgba(0,0,0,0.3));
+}
+
+#output {
+    height: 125px;
+    border: 0px solid #644522;
+    border-radius: 40px;
+}
+
+#buttons {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-image: url("res/button.png");
+    background-size: 125%;
+    border-radius: 100px;
+    width: fit-content;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    font-weight: bold;
+    height:max-content;
+    background-position: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.button:hover {
+    box-shadow: none;
+}
+
+.button:active {
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
